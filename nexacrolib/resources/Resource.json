@@ -1,0 +1,11 @@
+﻿{
+  "name": "Resource",
+  "version": "24.0.0.500",
+  "description": "Nexacro N Unified Framework Library",
+  "license": "",
+
+  "module": {
+    "resource": [ "images/waitimage.gif" ]
+  }
+}
+//# sourceURL=Resource.json

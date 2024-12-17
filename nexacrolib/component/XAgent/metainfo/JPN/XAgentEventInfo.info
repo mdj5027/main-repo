@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.XAgentEventInfo">
+    <ObjectInfo finalclass="false" inheritance="" classname="nexacro.XAgentEventInfo" shorttypename="" csstypename="" csscontrolname="" group="Object" subgroup="EventInfo" csspseudo="" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="" defaultheight="" registration="deny" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Edge,Chrome,Firefox,Windows NRE" description="connect、disconnectメソッドの実行に成功した際に発生するイベントに渡されるEventInfoオブジェクトです。" />
+    <PropertyInfo>
+      <Property name="eventid" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="イベントのIDを持つ読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="eventid" stringrc="false" defaultstringrc="false" />
+      <Property name="modulefunc" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="実行されたサービスと関連したモジュールの関数名を持つ読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="modulefunc" stringrc="false" defaultstringrc="false" />
+      <Property name="modulename" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="モジュールの名前を持つ読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="modulename" stringrc="false" defaultstringrc="false" />
+      <Property name="param" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="パラメータ値を持つ読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="param" stringrc="false" defaultstringrc="false" />
+      <Property name="reason" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="メッセージの区分値を持つ読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="reason" stringrc="false" defaultstringrc="false" />
+      <Property name="statusmessage" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="状態の情報値を持つ読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="statusmessage" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo />
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo />
+    <EventHandlerInfo />
+  </Object>
+</MetaInfo>

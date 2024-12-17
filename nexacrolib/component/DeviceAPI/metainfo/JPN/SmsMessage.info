@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.SmsMessage">
+    <ObjectInfo finalclass="true" inheritance="" classname="nexacro.SmsMessage" shorttypename="" csstypename="SmsMessage" csscontrolname="" group="Object" subgroup="EventInfo" csspseudo="" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="false" defaultheight="false" registration="deny" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Android NRE" description="SmsMessageListEventInfoオブジェクトのsmsmessagesプロパティに配列形式で保存されるオブジェクトです。" />
+    <PropertyInfo>
+      <Property name="date" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" defaultvalue="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE" description="SMSが送信または受信された時刻情報を持つプロパティです。" csspropertyname="" normalpropertyname="date" stringrc="false" defaultstringrc="false" />
+      <Property name="message" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" defaultvalue="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE" description="SMSのメッセージの内容を持つプロパティです。" csspropertyname="" normalpropertyname="message" stringrc="false" defaultstringrc="false" />
+      <Property name="phonenumber" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" defaultvalue="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE" description="SMSが送信または受信された電話番号を持つプロパティです。" csspropertyname="" normalpropertyname="phonenumber" stringrc="false" defaultstringrc="false" />
+      <Property name="smsid" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE" description="SMSを区分するID値を持つプロパティです。" csspropertyname="" normalpropertyname="smsid" stringrc="false" defaultstringrc="false" />
+      <Property name="type" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="Enum" defaultvalue="0" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE" description="SMSの受信/発信状態を持つプロパティです。" csspropertyname="" normalpropertyname="type" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo />
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo />
+    <EventHandlerInfo />
+  </Object>
+</MetaInfo>

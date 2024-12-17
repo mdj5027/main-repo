@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.XAgent">
+    <ObjectInfo finalclass="false" inheritance="" classname="nexacro.XAgent" shorttypename="XAgent" csstypename="" csscontrolname="" group="Object" subgroup="Object" csspseudo="" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="" defaultheight="" registration="allow" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーと通信することができるクライアントコンポーネントです。" />
+    <PropertyInfo>
+      <Property name="addport" group="" subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="5" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーとの通信に失敗した時に接続を試みる他のポートの範囲を設定するプロパティです。" csspropertyname="" normalpropertyname="addport" stringrc="false" defaultstringrc="false" />
+      <Property name="adminapiurl" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTのAdmin API URL情報を設定するプロパティです。" csspropertyname="" normalpropertyname="adminapiurl" stringrc="false" defaultstringrc="false" />
+      <Property name="license" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーのライセンスを設定するプロパティです。" csspropertyname="" normalpropertyname="license" stringrc="false" defaultstringrc="false" />
+      <Property name="name" group="Information" subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="XAgentの名前を設定するプロパティです。" csspropertyname="" normalpropertyname="name" stringrc="false" defaultstringrc="false" />
+      <Property name="port" group="" subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="49020" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーと通信するポートを設定するプロパティです。" csspropertyname="" normalpropertyname="port" stringrc="false" defaultstringrc="false" />
+      <Property name="project" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーのプロジェクト名を設定するプロパティです。" csspropertyname="" normalpropertyname="project" stringrc="false" defaultstringrc="false" />
+      <Property name="protocol" group="" subgroup="" refreshinfo="" displayinfo="" edittype="Enum" defaultvalue="ws" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="XAgentProtocol" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーと通信するWebSocketの通信プロトコルを設定するプロパティです。" csspropertyname="" normalpropertyname="protocol" stringrc="false" defaultstringrc="false" />
+      <Property name="updateurl" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTのモジュールのアップデートURL情報を設定するプロパティです。" csspropertyname="" normalpropertyname="updateurl" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo />
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo>
+      <Method name="callMethod" group="" async="false" usecontextmenu="false" deprecated="false" unused="true" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーを通じてX-AGENTの状態を確認したり、モジュールをインストールしモジュールを実行するメソッドです。">
+        <Syntax text="XAgent.callMethod(srvId, moduleName, funcName, paramObj)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="funcName" type="String" in="false" out="false" option="false" variable="false" description="関数名&#xA;&#xA;funcNameを別途指定しない場合はsrvIdと同じ値が設定されます。 &#xA;DLLモジュールをロードし関数を実行するexecuteサービスの場合には該当の関数名を指定します。" />
+            <Argument name="moduleName" type="String" in="false" out="false" option="false" variable="false" description="モジュールの名前" />
+            <Argument name="paramObj" type="Object" in="false" out="false" option="false" variable="false" description="パラメータ&#xA;&#xA;X-AGENTサービスごとに指定できるパラメータはRemarkの表をご参照ください。" />
+            <Argument name="srvId" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTのサービス名&#xA;&#xA;利用できるサービス名は以下の通りです。&#xA;- project：プロジェクトの初期化&#xA;- version：バージョン情報の確認&#xA;- update-module：1件のモジュールアップデート&#xA;- update-modules：複数のモジュールアップデート&#xA;- update-module-check：モジュールアップデート中にダウンロード完了有無の確認&#xA;- status：サーバーの実行状態の確認&#xA;- installed：他社のアプリのインストール有無の確認&#xA;- execute：モジュールの実行" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="configure" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTのプロジェクトの設定を要求するメソッドです。">
+        <Syntax text="XAgent.configure(strProject, strLicense, strUpdateUrl, strAdminApiUrl)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strAdminApiUrl" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTのAdmin API URL情報を指定します。" />
+            <Argument name="strLicense" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTサーバーのライセンスを指定します。" />
+            <Argument name="strProject" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTサーバーのプロジェクト名を指定します。" />
+            <Argument name="strUpdateUrl" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTのモジュールのアップデートURL情報を指定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="connect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーへの接続を要求するメソッドです。">
+        <Syntax text="XAgent.connect([strProject [,strLicense [,strUpdateUrl [,strAdminApiUrl]]]]">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strAdminApiUrl" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTのAdmin API URL情報を指定します。" />
+            <Argument name="strLicense" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTサーバーのライセンスを指定します。" />
+            <Argument name="strProject" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTサーバーのプロジェクト名を指定します。" />
+            <Argument name="strUpdateUrl" type="String" in="false" out="false" option="false" variable="false" description="X-AGENTのモジュールのアップデートURL情報を指定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="disconnect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーとの接続の終了を要求するメソッドです。">
+        <Syntax text="XAgent.disconnect()">
+          <Return type="" description="" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="execute" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーにインストールされたモジュールの実行を要求するメソッドです。">
+        <Syntax text="XAgent.execute(strModule, strFunc, objParam)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="objParam" type="Object" in="false" out="false" option="false" variable="false" description="モジュールの関数に渡す引数をJSONオブジェクト形式で指定します。" />
+            <Argument name="strFunc" type="String" in="false" out="false" option="false" variable="false" description="モジュールの関数名を指定します。" />
+            <Argument name="strModule" type="String" in="false" out="false" option="false" variable="false" description="モジュールの名前を指定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="installed" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="Windowsのレジストリ情報を用い他社アプリのインストール有無を確認するメソッドです。">
+        <Syntax text="XAgent.installed(strRegistryPath, strRegistryKey)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strRegistryKey" type="String" in="false" out="false" option="false" variable="false" description="レジストリキーを指定します。" />
+            <Argument name="strRegistryPath" type="String" in="false" out="false" option="false" variable="false" description="以下のパスにあるレジストリのCLSID(GUID)を指定します。&#xA;Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{registryPath}" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="status" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーの実行状態情報を要求するメソッドです。">
+        <Syntax text="XAgent.status(strType);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strType" type="String" in="false" out="false" option="false" variable="false" description="状態を確認したい対象を指定します。&#xA;&#xA;- &quot;all&quot;：X-AGENTサーバー、モジュール状態情報&#xA;　未指定にした場合は「all」として動作します。&#xA;- &quot;server&quot;：X-AGENTサーバーの状態情報&#xA;- &quot;process&quot;：X-AGENTのモジュールの状態情報" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="updateModule" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーにモジュールのアップデートを要求するメソッドです。">
+        <Syntax text="XAgent.updateModule(strName, strVersion, strFile, strProject[, bForceInstall])">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="bForceInstall" type="Boolean" in="false" out="false" option="false" variable="false" description="バージョンと関係なく、強制的にアップデートするかどうかを指定します。&#xA;未指定にした場合はfalseが適用されます。&#xA;falseである場合は上位バージョンへのアップデートのみ実行します。" />
+            <Argument name="strFile" type="String" in="false" out="false" option="false" variable="false" description="アップデートするモジュールのファイル名を指定します。" />
+            <Argument name="strName" type="String" in="false" out="false" option="false" variable="false" description="モジュールの名前を指定します。" />
+            <Argument name="strProject" type="String" in="false" out="false" option="false" variable="false" description="プロジェクト名を指定します。" />
+            <Argument name="strVersion" type="String" in="false" out="false" option="false" variable="false" description="アップデートするモジュールのバージョンを指定します。&#xA;モジュールファイル内のMETA-INFフォルダ配下のmodule.jsonファイル内のversionの値と同じ値を指定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="updateModuleCheck" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTのモジュールのアップデートのダウンロード状態情報を要求するメソッドです。">
+        <Syntax text="XAgent.updateModuleCheck()">
+          <Return type="" description="" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="updateModules" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーに複数のモジュールのアップデートを要求するメソッドです。">
+        <Syntax text="XAgent.updateModules(strProject)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strProject" type="String" in="false" out="false" option="false" variable="false" description="プロジェクト名を指定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="version" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="X-AGENTサーバーのバージョン、モジュールのバージョン情報を要求するメソッドです。">
+        <Syntax text="XAgent.version([strType])">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strType" type="String" in="false" out="false" option="false" variable="false" description="バージョン情報を要求する対象を指定します。&#xA;&#xA;- &quot;all&quot;：X-AGENTサーバー、モジュールのバージョン情報&#xA;　未指定にした場合は「all」として動作します。&#xA;- &quot;server&quot;：X-AGENTサーバーのバージョン情報&#xA;- &quot;modules&quot;：X-AGENTのモジュールのバージョン情報" />
+          </Arguments>
+        </Syntax>
+      </Method>
+    </MethodInfo>
+    <EventHandlerInfo>
+      <EventHandler name="onerror" group="" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="メソッドの実行に失敗した際に発生するイベントです。">
+        <Syntax text="XAgent.onerror(obj:nexacro.XAgent,e:nexacro.XAgentErrorEventInfo);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="obj" type="nexacro.XAgent" in="false" out="false" option="false" variable="false" description="このイベントが発生したオブジェクト。" />
+            <Argument name="e" type="nexacro.XAgentErrorEventInfo" in="false" out="false" option="false" variable="false" description="Eventオブジェクト。" />
+          </Arguments>
+        </Syntax>
+      </EventHandler>
+      <EventHandler name="onsuccess" group="" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Windows NRE" description="メソッドの実行に成功した際に発生するイベントです。">
+        <Syntax text="XAgent.onsuccess(obj:nexacro.XAgent,e:nexacro.XAgentEventInfo);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="obj" type="nexacro.XAgent" in="false" out="false" option="false" variable="false" description="このイベントが発生したオブジェクト。" />
+            <Argument name="e" type="nexacro.XAgentEventInfo" in="false" out="false" option="false" variable="false" description="Eventオブジェクト。" />
+          </Arguments>
+        </Syntax>
+      </EventHandler>
+    </EventHandlerInfo>
+  </Object>
+</MetaInfo>

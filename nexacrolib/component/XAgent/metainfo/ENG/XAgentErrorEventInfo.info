@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.XAgentErrorEventInfo">
+    <ObjectInfo finalclass="false" inheritance="" classname="nexacro.XAgentErrorEventInfo" shorttypename="" csstypename="" csscontrolname="" group="Object" subgroup="EventInfo" csspseudo="" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="" defaultheight="" registration="deny" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="This is an EventInfo object that is passed to the event that occurs when the connect and callMethod methods are failed to be executed." />
+    <PropertyInfo>
+      <Property name="data" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="This property has the event information object." csspropertyname="" normalpropertyname="data" stringrc="false" defaultstringrc="false" />
+      <Property name="errorcode" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="This property has the error code." csspropertyname="" normalpropertyname="errorcode" stringrc="false" defaultstringrc="false" />
+      <Property name="errormsg" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="This property has the error information." csspropertyname="" normalpropertyname="errormsg" stringrc="false" defaultstringrc="false" />
+      <Property name="eventid" group="Eventinfo" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="This read-only property holds the ID of an event." csspropertyname="" normalpropertyname="eventid" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo />
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo />
+    <EventHandlerInfo />
+  </Object>
+</MetaInfo>

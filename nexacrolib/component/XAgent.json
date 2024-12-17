@@ -1,0 +1,17 @@
+﻿{
+  "name": "XAgent",
+  "version": "24.0.0.500",
+  "description": "Nexacro N XAgent Library",
+  "license": "",
+  "scripts": [
+    "XAgent.js"
+  ],
+  "objInfo": [
+    "XAgent/metainfo/XAgent.info",
+    "XAgent/metainfo/XAgentErrorEventInfo.info",
+    "XAgent/metainfo/XAgentEventInfo.info"
+  ],
+  "designscripts": [
+    "XAgent/Design/DesignXAgent.js"
+  ]
+}

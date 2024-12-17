@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.XAgent">
+    <ObjectInfo finalclass="false" inheritance="" classname="nexacro.XAgent" shorttypename="XAgent" csstypename="" csscontrolname="" group="Object" subgroup="Object" csspseudo="" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="" defaultheight="" registration="allow" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버와 통신할 수 있는 클라이언트 컴포넌트입니다." />
+    <PropertyInfo>
+      <Property name="addport" group="" subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="5" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버와 통신 실패 시 연결을 시도할 다른 포트의 범위를 설정합니다." csspropertyname="" normalpropertyname="addport" stringrc="false" defaultstringrc="false" />
+      <Property name="adminapiurl" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT Admin API URL 정보를 설정합니다." csspropertyname="" normalpropertyname="adminapiurl" stringrc="false" defaultstringrc="false" />
+      <Property name="license" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버의 라이선스를 설정합니다." csspropertyname="" normalpropertyname="license" stringrc="false" defaultstringrc="false" />
+      <Property name="name" group="Information" subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="XAgent 의 이름을 설정하는 속성입니다." csspropertyname="" normalpropertyname="name" stringrc="false" defaultstringrc="false" />
+      <Property name="port" group="" subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="49020" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버와 통신할 포트를 설정합니다." csspropertyname="" normalpropertyname="port" stringrc="false" defaultstringrc="false" />
+      <Property name="project" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버의 프로젝트명을 설정합니다." csspropertyname="" normalpropertyname="project" stringrc="false" defaultstringrc="false" />
+      <Property name="protocol" group="" subgroup="" refreshinfo="" displayinfo="" edittype="Enum" defaultvalue="ws" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="XAgentProtocol" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버와 통신할 웹소켓 통신 프로토콜을 설정합니다." csspropertyname="" normalpropertyname="protocol" stringrc="false" defaultstringrc="false" />
+      <Property name="updateurl" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 모듈 업데이트 URL 정보를 설정합니다." csspropertyname="" normalpropertyname="updateurl" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo />
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo>
+      <Method name="callMethod" group="" async="false" usecontextmenu="false" deprecated="false" unused="true" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버를 통해 X-AGENT 상태를 확인하거나 모듈을 설치하고 모듈을 실행하는 메서드입니다.">
+        <Syntax text="XAgent.callMethod(srvId, moduleName, funcName, paramObj)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="funcName" type="String" in="false" out="false" option="false" variable="false" description="함수명&#xA;&#xA;funcName을 별도로 지정하지 않는 경우에는 srvId와 같은 값으로 설정합니다. &#xA;DLL 모듈을 로드하고 함수를 실행하는 execute 서비스의 경우에는 해당 함수명을 설정합니다." />
+            <Argument name="moduleName" type="String" in="false" out="false" option="false" variable="false" description="모듈 이름" />
+            <Argument name="paramObj" type="Object" in="false" out="false" option="false" variable="false" description="파라미터&#xA;&#xA;X-AGENT 서비스 별 설정할 수 있는 파라미터는 하단 표를 참고하세요." />
+            <Argument name="srvId" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT 서비스명&#xA;&#xA;사용할 수 있는 서비스명은 아래와 같습니다.&#xA;- project: 프로젝트 초기화&#xA;- version: version 정보 확인&#xA;- update-module: 1개 모듈 업데이트&#xA;- update-modules: 1개 이상 모듈 업데이트&#xA;- update-module-check: 모듈 업데이트 중 다운로드 완료 여부 확인&#xA;- status: 서버 실행 상태 확인&#xA;- installed: 타사 앱 설치 여부 확인&#xA;- execute: 모듈 실행" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="configure" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 프로젝트 설정을 요청하는 메서드입니다.">
+        <Syntax text="XAgent.configure(strProject, strLicense, strUpdateUrl, strAdminApiUrl)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strAdminApiUrl" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT Admin API URL 정보" />
+            <Argument name="strLicense" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT 서버 라이선스" />
+            <Argument name="strProject" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT 서버 프로젝트 이름" />
+            <Argument name="strUpdateUrl" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT 모듈 업데이트 URL 정보" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="connect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버와 연결을 요청하는 메서드입니다.">
+        <Syntax text="XAgent.connect([strProject [,strLicense [,strUpdateUrl [,strAdminApiUrl]]]]">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strAdminApiUrl" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT Admin API URL 정보" />
+            <Argument name="strLicense" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT 서버 라이선스" />
+            <Argument name="strProject" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT 서버 프로젝트 이름" />
+            <Argument name="strUpdateUrl" type="String" in="false" out="false" option="false" variable="false" description="X-AGENT 모듈 업데이트 URL 정보" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="disconnect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버와 연결 종료를 요청하는 메서드입니다.">
+        <Syntax text="XAgent.disconnect()">
+          <Return type="" description="" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="execute" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버에 설치된 모듈 실행을 요청하는 메서드입니다.">
+        <Syntax text="XAgent.execute(strModule, strFunc, objParam)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="objParam" type="Object" in="false" out="false" option="false" variable="false" description="모듈 함수에 전달할 인수&#xA;JSON 오브젝트 형식으로 설정합니다." />
+            <Argument name="strFunc" type="String" in="false" out="false" option="false" variable="false" description="모듈 함수 이름" />
+            <Argument name="strModule" type="String" in="false" out="false" option="false" variable="false" description="모듈 이름" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="installed" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="윈도우 레지스트리 정보를 이용해 타사 앱 설치 여부를 확인하는 메서드입니다.">
+        <Syntax text="XAgent.installed(strRegistryPath, strRegistryKey)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strRegistryKey" type="String" in="false" out="false" option="false" variable="false" description="레지스트리 키" />
+            <Argument name="strRegistryPath" type="String" in="false" out="false" option="false" variable="false" description="아래 경로에 있는 레지스트리 CLSID(GUID)&#xA;Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{registryPath}" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="status" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버 실행 상태 정보를 요청하는 메서드입니다.">
+        <Syntax text="XAgent.status(strType);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strType" type="String" in="false" out="false" option="false" variable="false" description="상태를 확인할 대상을 설정합니다.&#xA;&#xA;- &quot;all&quot;:  X-AGENT 서버, 모듈 상태 정보&#xA;  파라미터 값을 설정하지 않은 경우 &quot;all&quot;로 동작합니다.&#xA;- &quot;server&quot;: X-AGENT 서버 상태 정보&#xA;- &quot;process&quot;:  X-AGENT 모듈 상태 정보" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="updateModule" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버에 모듈 업데이트를 요청하는 메서드입니다">
+        <Syntax text="XAgent.updateModule(strName, strVersion, strFile, strProject[, bForceInstall])">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="bForceInstall" type="Boolean" in="false" out="false" option="false" variable="false" description="version과 상관 없이 강제 업데이트 여부를 설정합니다.&#xA;값을 설정하지 않으면 false로 적용됩니다.&#xA;false인 경우에는 상위 버전인 경우에만 업데이트를 수행합니다." />
+            <Argument name="strFile" type="String" in="false" out="false" option="false" variable="false" description="업데이트 모듈 파일 이름" />
+            <Argument name="strName" type="String" in="false" out="false" option="false" variable="false" description="모듈 이름" />
+            <Argument name="strProject" type="String" in="false" out="false" option="false" variable="false" description="프로젝트 이름" />
+            <Argument name="strVersion" type="String" in="false" out="false" option="false" variable="false" description="업데이트 모듈 버전&#xA;모듈 파일 내 META-INF 폴더에 있는 module.json 파일 내 version 값과 같은 값을 설정합니다." />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="updateModuleCheck" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 모듈 업데이트의 다운로드 상태 정보를 요청하는 메서드입니다.">
+        <Syntax text="XAgent.updateModuleCheck()">
+          <Return type="" description="" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="updateModules" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버에 여러 모듈 업데이트를 요청하는 메서드입니다">
+        <Syntax text="XAgent.updateModules(strProject)">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strProject" type="String" in="false" out="false" option="false" variable="false" description="프로젝트 이름" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="version" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="X-AGENT 서버 버전, 모듈 버전 정보를 요청하는 메서드입니다.">
+        <Syntax text="XAgent.version([strType])">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strType" type="String" in="false" out="false" option="false" variable="false" description="버전 정보를 요청할 대상을 설정합니다.&#xA;&#xA;- &quot;all&quot;:  X-AGENT 서버, 모듈 버전 정보&#xA;  파라미터 값을 설정하지 않은 경우 &quot;all&quot;로 동작합니다.&#xA;- &quot;server&quot;: X-AGENT 서버 버전 정보&#xA;- &quot;modules&quot;:  X-AGENT 모듈 버전 정보" />
+          </Arguments>
+        </Syntax>
+      </Method>
+    </MethodInfo>
+    <EventHandlerInfo>
+      <EventHandler name="onerror" group="" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="메서드 실행 실패 시 발생하는 이벤트입니다.">
+        <Syntax text="XAgent.onerror(obj:nexacro.XAgent,e:nexacro.XAgentErrorEventInfo);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="obj" type="nexacro.XAgent" in="false" out="false" option="false" variable="false" description="Event가 발생한 Object." />
+            <Argument name="e" type="nexacro.XAgentErrorEventInfo" in="false" out="false" option="false" variable="false" description="Event Object." />
+          </Arguments>
+        </Syntax>
+      </EventHandler>
+      <EventHandler name="onsuccess" group="" deprecated="false" unused="false" requirement="Edge,Chrome,Firefox,Opera,Windows NRE" description="메서드 실행 성공 시 발생하는 이벤트입니다.">
+        <Syntax text="XAgent.onsuccess(obj:nexacro.XAgent,e:nexacro.XAgentEventInfo);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="obj" type="nexacro.XAgent" in="false" out="false" option="false" variable="false" description="Event가 발생한 Object." />
+            <Argument name="e" type="nexacro.XAgentEventInfo" in="false" out="false" option="false" variable="false" description="Event Object." />
+          </Arguments>
+        </Syntax>
+      </EventHandler>
+    </EventHandlerInfo>
+  </Object>
+</MetaInfo>

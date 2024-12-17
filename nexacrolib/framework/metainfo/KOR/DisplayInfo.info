@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <DisplayInfo id="layouttype" delimiter=",">
+    <Value compare="@empty,default">
+      <Property name="spacing" readonly="true" />
+      <Property name="horizontalgap" readonly="true" />
+      <Property name="verticalgap" readonly="true" />
+      <Property name="flexwrap" readonly="true" />
+      <Property name="flexmainaxisalign" readonly="true" />
+      <Property name="flexcrossaxisalign" readonly="true" />
+      <Property name="flexcrossaxiswrapalign" readonly="true" />
+      <Property name="tabletemplate" readonly="true" />
+      <Property name="tabletemplatearea" readonly="true" />
+      <Property name="tabledirection" readonly="true" />
+      <Property name="tablecellalign" readonly="true" />
+      <Property name="tablecellincompalign" readonly="true" />
+    </Value>
+    <Value compare="horizontal,vertical">
+      <Property name="stepindex" readonly="true" />
+      <Property name="stepcount" readonly="true" />
+      <Property name="tabletemplate" readonly="true" />
+      <Property name="tabletemplatearea" readonly="true" />
+      <Property name="tabledirection" readonly="true" />
+      <Property name="tablecellalign" readonly="true" />
+      <Property name="tablecellincompalign" readonly="true" />
+    </Value>
+    <Value compare="table">
+      <Property name="stepindex" readonly="true" />
+      <Property name="stepcount" readonly="true" />
+      <Property name="flexwrap" readonly="true" />
+      <Property name="flexmainaxisalign" readonly="true" />
+      <Property name="flexcrossaxisalign" readonly="true" />
+      <Property name="flexcrossaxiswrapalign" readonly="true" />
+    </Value>
+  </DisplayInfo>
+</MetaInfo>

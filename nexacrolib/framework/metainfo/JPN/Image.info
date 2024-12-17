@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.Image">
+    <ObjectInfo finalclass="" inheritance="" classname="nexacro.Image" shorttypename="" csstypename="Image" csscontrolname="" group="Object_old" subgroup="" csspseudo="" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="false" defaultheight="false" registration="system" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="画像を処理するために提供するオブジェクトです。" />
+    <PropertyInfo>
+      <Property name="height" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="" defaultvalue="" readonly="true" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="Imageオブジェクトのsrcプロパティにロードされた画像の高さの値を持つ、読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="height" stringrc="false" defaultstringrc="false" />
+      <Property name="src" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="Imageオブジェクトにロードする画像ファイルのパスを設定するプロパティです。" csspropertyname="" normalpropertyname="src" stringrc="false" defaultstringrc="false" />
+      <Property name="width" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="" defaultvalue="" readonly="true" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="Imageオブジェクトのsrcプロパティにロードされた画像の幅の値を持つ、読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="width" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo />
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo>
+      <Method name="getBase64String" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="Imageオブジェクトに保存されたBase64エンコードデータを返すメソッドです。">
+        <Syntax text="Image.getBase64String([bOnlydata]);">
+          <Return type="String" description="Imageオブジェクトに保存されたBase64データを返します。" />
+          <Arguments>
+            <Argument name="bOnlydata" type="Boolean" in="false" out="false" option="false" variable="false" description="false：Data URI形式で返します。&#xA;true：Data URI形式の中でBase64エンコードデータのみ返します。&#xA;&#xA;未設定にした場合はfalseに設定されます。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="setBase64String" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="ImageオブジェクトにBase64でエンコードされたデータを保存するメソッドです。">
+        <Syntax text="Image.setBase64String(strBase64);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strBase64" type="String" in="false" out="false" option="false" variable="false" description="Base64でエンコードされた画像データを設定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+    </MethodInfo>
+    <EventHandlerInfo>
+      <EventHandler name="onerror" group="" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="srcプロパティに設定した画像のロードに失敗した際に発生するイベントです。">
+        <Syntax text="Image.onerror(obj:nexacro.Image,e:nexacro.ErrorEventInfo);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="obj" type="nexacro.Image" in="false" out="false" option="false" variable="false" description="このイベントが発生したオブジェクト。" />
+            <Argument name="e" type="nexacro.ErrorEventInfo" in="false" out="false" option="false" variable="false" description="Eventオブジェクト。" />
+          </Arguments>
+        </Syntax>
+      </EventHandler>
+      <EventHandler name="onload" group="" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="srcプロパティに設定した画像のロードに成功したときに発生するイベントです。">
+        <Syntax text="Image.onload(obj:nexacro.Image,e:nexacro.LoadEventInfo);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="obj" type="nexacro.Image" in="false" out="false" option="false" variable="false" description="このイベントが発生したオブジェクト。" />
+            <Argument name="e" type="nexacro.LoadEventInfo" in="false" out="false" option="false" variable="false" description="Eventオブジェクト。" />
+          </Arguments>
+        </Syntax>
+      </EventHandler>
+    </EventHandlerInfo>
+  </Object>
+</MetaInfo>

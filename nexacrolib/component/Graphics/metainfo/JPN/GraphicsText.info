@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.GraphicsText">
+    <ObjectInfo finalclass="false" inheritance="nexacro._GraphicsShape" classname="nexacro.GraphicsText" shorttypename="GraphicsText" csstypename="" csscontrolname="" group="Object" subgroup="" csspseudo="" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="false" defaultheight="false" registration="deny" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="Graphicsコンポーネントにテキストを表示する際に使用されるオブジェクトです。" />
+    <PropertyInfo>
+      <Property name="color" group="Style" subgroup="color" refreshinfo="" displayinfo="" edittype="Color" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextに表示されるテキストの色を設定するプロパティです。" csspropertyname="" normalpropertyname="color" stringrc="false" defaultstringrc="false" />
+      <Property name="fillstyle" group="" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="" description="" csspropertyname="" normalpropertyname="fillstyle" stringrc="false" defaultstringrc="false" />
+      <Property name="font" group="Style" subgroup="font" refreshinfo="" displayinfo="" edittype="Font" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextで使用するフォントを設定するプロパティです。" csspropertyname="font" normalpropertyname="font" stringrc="false" defaultstringrc="false" />
+      <Property name="height" group="" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="" description="" csspropertyname="" normalpropertyname="height" stringrc="false" defaultstringrc="false" />
+      <Property name="id" group="Information" subgroup="" refreshinfo="" displayinfo="" edittype="ID" readonly="true" initonly="true" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="true" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextの一意識別子を設定するプロパティです。" csspropertyname="" normalpropertyname="id" stringrc="false" defaultstringrc="false" />
+      <Property name="miterlimit" group="" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="" description="" csspropertyname="" normalpropertyname="miterlimit" stringrc="false" defaultstringrc="false" />
+      <Property name="opacity" group="Style" subgroup="" refreshinfo="" displayinfo="" edittype="Number" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsText領域の透明度を設定するプロパティです。" csspropertyname="" normalpropertyname="opacity" stringrc="false" defaultstringrc="false" />
+      <Property name="parent" group="Hidden" subgroup="" refreshinfo="" displayinfo="" edittype="Object" readonly="true" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextの親オブジェクトを持つ、読み取り専用のプロパティです。" csspropertyname="" normalpropertyname="parent" stringrc="false" defaultstringrc="false" />
+      <Property name="strokecap" group="" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="" description="" csspropertyname="" normalpropertyname="strokecap" stringrc="false" defaultstringrc="false" />
+      <Property name="strokejoin" group="" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="" description="" csspropertyname="" normalpropertyname="strokejoin" stringrc="false" defaultstringrc="false" />
+      <Property name="strokepen" group="" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="" description="" csspropertyname="" normalpropertyname="strokepen" stringrc="false" defaultstringrc="false" />
+      <Property name="text" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextに表示する文字列を設定するプロパティです。" csspropertyname="" normalpropertyname="text" stringrc="false" defaultstringrc="false" />
+      <Property name="textAlign" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="Enum" defaultvalue="left" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="HorizontalAlign" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextのxプロパティ値の位置を基準に、文字列が表示される水平方向の位置を設定するプロパティです。" csspropertyname="" normalpropertyname="textAlign" stringrc="false" defaultstringrc="false" />
+      <Property name="textwidth" group="Style" subgroup="" refreshinfo="" displayinfo="" edittype="Number" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="Size" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="wordWrapプロパティ値が「char」のとき、GraphicsTextにテキストが表示される領域の幅を設定するプロパティです。" csspropertyname="" normalpropertyname="textwidth" stringrc="false" defaultstringrc="false" />
+      <Property name="verticalAlign" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="Enum" defaultvalue="top" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="VerticalAlign" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextのyプロパティ値の位置を基準に、文字列が表示される垂直方向の位置を設定するプロパティです。" csspropertyname="" normalpropertyname="verticalAlign" stringrc="false" defaultstringrc="false" />
+      <Property name="visible" group="Action" subgroup="" refreshinfo="" displayinfo="" edittype="Boolean" defaultvalue="true" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextを画面上に表示するかどうかを設定するプロパティです。" csspropertyname="" normalpropertyname="visible" stringrc="false" defaultstringrc="false" />
+      <Property name="width" group="" subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="" description="" csspropertyname="" normalpropertyname="width" stringrc="false" defaultstringrc="false" />
+      <Property name="wordWrap" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="Enum" defaultvalue="none" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="WordWrapType" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextに表示される文字列がtextwidthプロパティ値よりも長い場合、改行されるように設定するプロパティです。" csspropertyname="" normalpropertyname="wordWrap" stringrc="false" defaultstringrc="false" />
+      <Property name="x" group="Position" subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="0" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="親オブジェクトの位置を基準にGraphicsTextを表示するx軸方向の距離値を設定するプロパティです。" csspropertyname="" normalpropertyname="x" stringrc="false" defaultstringrc="false" />
+      <Property name="y" group="" subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="0" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="親オブジェクトの位置を基準にGraphicsTextを表示するy軸方向の距離値を設定するプロパティです。" csspropertyname="" normalpropertyname="y" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo>
+        <Property name="font" group="Style" subgroup="font" edittype="Font" readonly="false" initonly="false" hidden="false" control="false" style="true" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextで使用するフォントを設定するプロパティです。" csspropertyname="font" normalpropertyname="font" stringrc="false" defaultstringrc="false" />
+      </PropertyInfo>
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo>
+      <Method name="destroy" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextをメモリから完全に削除するメソッドです。">
+        <Syntax text="GraphicsText.destroy()">
+          <Return type="Boolean" description="GraphicsTextが正常に削除された場合は、「true」を返します。&#xA;&#xA;GraphicsTextが正常に削除されない場合は、「false」を返します。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="getBoundRect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextが表示される領域の情報を、Graphicsコンポーネントを基準とした外側の枠線領域を含めて返すメソッドです。">
+        <Syntax text="GraphicsText.getBoundRect( );">
+          <Return type="Object" description="Graphicsコンポーネントの基準でGraphicsTextが表示される領域の情報をNexacroのRectオブジェクトとして返します。&#xA;&#xA;GraphicsEllipse、GraphicsLine、GraphicsPath、GraphicsPaths、GraphicsRectオブジェクトのstrokepenプロパティを設定している場合、返す領域の情報に外側の枠線領域が含まれます。&#xA;strokepenプロパティを未設定にした場合、もしくはGraphicsGroup、GraphicsImage、GraphicsTextオブジェクトである場合には、 枠線情報がなく、返す領域の情報に枠線領域が含まれません。&#xA;&#xA;* Rectオブジェクトは、「left」、「top」、「right」、「bottom」、「width」、「height」プロパティを持っています。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="getNextSibling" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextと親が同じGraphicsオブジェクトの次の順序のオブジェクトを返すメソッドです。">
+        <Syntax text="GraphicsText.getNextSibling()">
+          <Return type="Object" description="親が同じ次の順序のGraphicsオブジェクトを返します。&#xA;&#xA;次の順序のGraphicsオブジェクトが存在しない場合はnullを返します。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="getOffsetBoundRect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextが表示される領域の情報を、Graphicsの親オブジェクトを基準とした外側の枠線領域を含めて返すメソッドです。">
+        <Syntax text="GraphicsText.getOffsetBoundRect( );">
+          <Return type="Object" description="親オブジェクトのleft、topの位置を基準に計算された領域情報がRectオブジェクトに返されます。&#xA;&#xA;GraphicsEllipse、GraphicsLine、GraphicsPath、GraphicsPaths、GraphicsRectオブジェクトのstrokepenプロパティを設定している場合、返す領域の情報に外側の枠線領域が含まれます。&#xA;strokepenプロパティを未設定にした場合、もしくはGraphicsGroup、GraphicsImage、GraphicsTextオブジェクトである場合には、 枠線情報がなく、返す領域の情報に枠線領域が含まれません。&#xA;&#xA;* Rectオブジェクトは 「left」、「top」、「right」、「bottom」、「width」、「height」プロパティを持ちます。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="getOffsetRect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextが表示される領域の情報を親オブジェクトを基準に返すメソッドです。">
+        <Syntax text="GraphicsText.getOffsetRect( );">
+          <Return type="Object" description="親オブジェクトのleft、topの位置を基準に計算された領域の情報がRectオブジェクトに返されます。&#xA;&#xA;GraphicsTextオブジェクトのstrokepenプロパティを設定していても、枠線の領域に関係なくGraphicsTextオブジェクトの実際の領域が返されます。&#xA;&#xA;* Rectオブジェクトは、 「left」、「top」、「right」、「bottom」、「width」、「height」プロパティを持ちます。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="getOffsetRegion" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextが表示される領域の情報を、親オブジェクトを基準とした内側の枠線領域を除いて返すメソッドです。">
+        <Syntax text="GraphicsText.getOffsetRegion( );">
+          <Return type="Object" description="親オブジェクトのleft、topの位置を基準に計算された領域の情報がRectオブジェクトに返されます。&#xA;&#xA;GraphicsTextオブジェクトのstrokepenプロパティを設定していても、返される領域の情報からは内側の枠線領域が除外されます。&#xA;&#xA;* Rectオブジェクトは 「left」、「top」、「right」、「bottom」、「width」、「height」プロパティを持ちます。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="getPreviousSibling" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextと親が同じであるGraphicsオブジェクトの前の順序のオブジェクトを返すメソッドです。">
+        <Syntax text="GraphicsText.getPreviousSibling()">
+          <Return type="Object" description="親が同じである以前の順序のGraphicsオブジェクトを返します。&#xA;&#xA;以前の順序のGraphicsオブジェクトが存在しない場合は「null」を返します。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="getRect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextの領域の情報をGraphicsコンポーネントを基準に返すメソッドです。">
+        <Syntax text="GraphicsText.getRect( );">
+          <Return type="Object" description="Graphicsコンポーネントのleft、topの位置を基準に計算された領域の情報がRectオブジェクトに返されます。&#xA;&#xA;GraphicsTextオブジェクトのstrokepenプロパティを設定していても、枠線の領域に関係なくGraphicsTextオブジェクトの実際の領域が返されます。&#xA;&#xA;* Rectオブジェクトは 「left」、「top」、「right」、「bottom」、「width」、「height」プロパティを持ちます。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="getRegion" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextが表示される領域の情報を、Graphicsコンポーネントを基準とした内側の枠線領域を除いて返すメソッドです。">
+        <Syntax text="GraphicsText.getRegion( );">
+          <Return type="Object" description="Graphicsコンポーネントのleft、topの位置を基準に計算された領域の情報がRectオブジェクトに返されます。&#xA;&#xA;GraphicsTextオブジェクトのstrokepenプロパティを設定している場合、返される領域の情報からは内側の枠線領域が除外されます。&#xA;&#xA;* Rectオブジェクトは 「left」、「top」、「right」、「bottom」、「width」、「height」プロパティを持ちます。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="isEmptyRect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextに設定されたテキストの存在有無かを返すメソッドです。">
+        <Syntax text="GraphicsText.isEmptyRect()">
+          <Return type="Boolean" description="GraphicsTextに設定されたテキストが存在しない場合は「true」を返します。&#xA;&#xA;GraphicsTextに設定されたテキストが存在する場合は「false」を返します。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="isHitTest" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="引数として渡された座標位置がGraphicsText領域に含まれるかどうかを返すメソッドです。">
+        <Syntax text="GraphicsText.isHitTest( nX, nY )">
+          <Return type="Boolean" description="引数として渡された座標位置がGraphicsText領域に含まれる場合は「true」を返します。&#xA;&#xA;引数として渡された座標位置がGraphicsText領域に含まれない場合は「false」を返します。" />
+          <Arguments>
+            <Argument name="nX" type="Number" in="false" out="false" option="false" variable="false" description="確認する位置のx座標値をpixel単位の数値に設定します。&#xA;&#xA;設定値はGraphicsコンポーネントを基準に処理されます。" />
+            <Argument name="nY" type="Number" in="false" out="false" option="false" variable="false" description="確認する位置のy座標値をpixel単位の数値に設定します。&#xA;&#xA;設定値はGraphicsコンポーネントを基準に処理されます。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="rotate" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextに回転効果を適用するメソッドです。">
+        <Syntax text="GraphicsText.rotate( nAngle [, nCenterX, nCenterY] );">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="nAngle" type="Number" in="false" out="false" option="false" variable="false" description="現在の形で回転される角度を数字で設定します。&#xA;&#xA;正の設定時、時計回りに回転します。&#xA;負の設定時、反時計回りに回転します。" />
+            <Argument name="nCenterX" type="Number" in="false" out="false" option="false" variable="false" description="回転の中心となるx座標を数字で設定します。&#xA;設定値は、親オブジェクトを基準に処理されます。&#xA;&#xA;値省略時、0が適用されます。" />
+            <Argument name="nCenterY" type="Number" in="false" out="false" option="false" variable="false" description="回転の中心となるy座標を数字で設定します。&#xA;設定値は、親オブジェクトを基準に処理されます。&#xA;&#xA;値省略時、0が適用されます。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="scale" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextに拡大および縮小効果を適用するメソッドです。">
+        <Syntax text="GraphicsText.scale( nScaleX, nScaleY [, nCenterX, nCenterY] );">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="nCenterX" type="Number" in="false" out="false" option="false" variable="false" description="拡大および縮小の中心となるx座標を数字で設定します。&#xA;設定値は、親オブジェクトを基準に処理されます。&#xA;&#xA;値省略時、0が適用されます。" />
+            <Argument name="nCenterY" type="Number" in="false" out="false" option="false" variable="false" description="拡大および縮小の中心となるy座標を数字で設定します。&#xA;設定値は、親オブジェクトを基準に処理されます。&#xA;&#xA;値省略時、0が適用されます。" />
+            <Argument name="nScaleX" type="Number" in="false" out="false" option="false" variable="false" description="現在のサイズから拡大および縮小される横倍率を整数で設定します。&#xA;&#xA;1.0より大きい値を設定すると、GraphicsTextが拡大されます。&#xA;1.0よりも小さい値を設定すると、GraphicsTextが縮小されます。" />
+            <Argument name="nScaleY" type="Number" in="false" out="false" option="false" variable="false" description="現在のサイズから拡大および縮小される縦倍率を整数で設定します。&#xA;&#xA;1.0より大きい値を設定すると、GraphicsTextが拡大されます。&#xA;1.0よりも小さい値を設定すると、GraphicsTextが縮小されます。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="setClipRect" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextの一部の領域のみを表示されるようにClippingする領域の座標を設定するメソッドです。">
+        <Syntax text="GraphicsText.setClipRect( nX, nY, nWidth, nHeight );">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="nHeight" type="Number" in="false" out="false" option="false" variable="false" description="Clippingする領域の高さを数字で設定します。" />
+            <Argument name="nWidth" type="Number" in="false" out="false" option="false" variable="false" description="Clippingする領域の幅を数字で設定します。" />
+            <Argument name="nX" type="Number" in="false" out="false" option="false" variable="false" description="Clippingする領域のx座標を数字に設定します。" />
+            <Argument name="nY" type="Number" in="false" out="false" option="false" variable="false" description="Clippingする領域のy座標を数字に設定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="setTransform" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextの元の位置を基準としてtransform関連効果を連続的に適用するメソッドです。">
+        <Syntax text="GraphicsText.setTransform( strMethod );">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="strMethod" type="String" in="false" out="false" option="false" variable="false" description="GraphicsTextに適用するTransform関連メソッドをカンマ（,）で区切って指定します。&#xA;translate、scale、rotate、shearメソッドを使用することができます。&#xA;nullを設定した場合にはtransformの効果が指定されていない状態で初期化します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="shear" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextにワープ効果を適用するメソッドです。">
+        <Syntax text="GraphicsText.shear( nRadianX, nRadianY [, nCenterX, nCenterY] );">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="nCenterX" type="Number" in="false" out="false" option="false" variable="false" description="ワープの中心となるx座標を数値に設定します。&#xA;設定値は親オブジェクトを基準に処理されます。&#xA;&#xA;値省略時、0が適用されます。" />
+            <Argument name="nCenterY" type="Number" in="false" out="false" option="false" variable="false" description="ワープの中心となるy座標を数値に設定します。&#xA;設定値は親オブジェクトを基準に処理されます。&#xA;&#xA;値省略時、0が適用されます。" />
+            <Argument name="nRadianX" type="Number" in="false" out="false" option="false" variable="false" description="現在の姿にて、x軸を基準にねじる角度をラジアン値に設定します。" />
+            <Argument name="nRadianY" type="Number" in="false" out="false" option="false" variable="false" description="現在の形にて、y軸を基準にねじる角度をラジアン値に設定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="toString" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextのタイプを文字列として返すメソッドです。">
+        <Syntax text="GraphicsText.toString();">
+          <Return type="String" description="一般的に、[object GraphicsText]の形の文字列を返します。" />
+          <Arguments />
+        </Syntax>
+      </Method>
+      <Method name="transform" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextにTransform関連効果を適用するメソッドです。">
+        <Syntax text="GraphicsText.transform( nScaleX, nShearX, nShearY, nScaleY, nTransX, nTransY );">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="nScaleX" type="Number" in="false" out="false" option="false" variable="false" description="現在のサイズから拡大/縮小される横倍率を実数に設定します。&#xA;&#xA;1.0より大きな値を設定すると、GraphicsTextが拡大されます。&#xA;1.0よりも小さい値を設定すると、GraphicsTextが縮小されます。" />
+            <Argument name="nScaleY" type="Number" in="false" out="false" option="false" variable="false" description="現在のサイズから拡大/縮小される縦倍率を実数に設定します。&#xA;&#xA;1.0より大きな値を設定すると、GraphicsTextが拡大されます。&#xA;1.0よりも小さい値を設定すると、GraphicsTextが縮小されます。" />
+            <Argument name="nShearX" type="Number" in="false" out="false" option="false" variable="false" description="現在の姿にて、x軸を基準にねじる角度をラジアン値に設定します。" />
+            <Argument name="nShearY" type="Number" in="false" out="false" option="false" variable="false" description="現在の形にて、y軸を基準にねじる角度をラジアン値に設定します。" />
+            <Argument name="nTransX" type="Number" in="false" out="false" option="false" variable="false" description="現在の位置からx軸方向に移動する距離をpixel単位の数値に設定します。" />
+            <Argument name="nTransY" type="Number" in="false" out="false" option="false" variable="false" description="現在の位置からy軸方向に移動する距離をpixel単位の数値に設定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+      <Method name="translate" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Edge,Chrome,Safari,Firefox,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="GraphicsTextの位置が移動される効果を適用するメソッドです。">
+        <Syntax text="GraphicsText.translate( nTransX, nTransY );">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="nTransX" type="Number" in="false" out="false" option="false" variable="false" description="現在の位置からx軸方向に移動する距離をpixel単位の数値に設定します。" />
+            <Argument name="nTransY" type="Number" in="false" out="false" option="false" variable="false" description="現在の位置からy軸方向に移動する距離をpixel単位の数値に設定します。" />
+          </Arguments>
+        </Syntax>
+      </Method>
+    </MethodInfo>
+    <EventHandlerInfo />
+  </Object>
+</MetaInfo>

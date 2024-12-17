@@ -1,0 +1,34 @@
+﻿{
+  "name": "Grid",
+  "version": "24.0.0.500",
+  "description": "Nexacro N Unified Framework Library",
+  "license": "",
+  "scripts": [
+    "Grid.js"
+  ],
+    "objInfo": [
+        "Grid/metainfo/Grid.info",
+        "Grid/metainfo/GridBandControl.info",
+        "Grid/metainfo/GridRowControl.info",
+        "Grid/metainfo/GridCellControl.info",
+        "Grid/metainfo/CellSubCellControl.info",
+        "Grid/metainfo/GridColumnControl.info",
+        "Grid/metainfo/GridContextMenuEventInfo.info",
+        "Grid/metainfo/GridClickEventInfo.info",
+        "Grid/metainfo/GridDragEventInfo.info",
+        "Grid/metainfo/GridEditEventInfo.info",
+        "Grid/metainfo/GridMouseEventInfo.info",
+        "Grid/metainfo/GridSelectEventInfo.info",
+        "Grid/metainfo/GridSizeChangedEventInfo.info",
+        "Grid/metainfo/GridTreeStatusEventInfo.info",
+        "Grid/metainfo/GridSelectionControl.info",
+        "Grid/metainfo/GridKeyEventInfo.info",
+        "Grid/metainfo/GridInputEventInfo.info",
+        "Grid/metainfo/GridHeadValueChangedEventInfo.info",
+        "Grid/metainfo/GridImageErrorEventInfo.info"
+    ],
+  "designscripts": [
+    "Grid/Design/DesignGrid.js"
+  ]
+}
+

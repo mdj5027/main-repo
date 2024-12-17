@@ -1,0 +1,48 @@
+﻿{
+  "name": "MobileComp",
+  "version": "24.0.0.500",
+  "description": "Nexacro N Unified Framework Library",
+  "license": "",
+  "scripts": [
+    "MobileComp.js"
+  ],
+  "scriptsfilter": [
+    {
+      "name": "MobileElement_HTML5.js",
+      "target": "WRE,iOS_NRE"
+    },
+    {
+      "name": "MobileElement_Runtime.js",
+      "target": "NRE"
+    }
+  ],
+  "objInfo": [
+    "MobileComp/metainfo/FlexTextControl.info",
+    "MobileComp/metainfo/FieldBaseTextControl.info",
+    "MobileComp/metainfo/FieldBaseIconControl.info",
+    "MobileComp/metainfo/FieldBaseLabelControl.info",
+    "MobileComp/metainfo/SpinnerControl.info",
+    "MobileComp/metainfo/TextField.info",
+    "MobileComp/metainfo/TextFieldBoxControl.info",
+    "MobileComp/metainfo/MultiLineTextField.info",
+    "MobileComp/metainfo/MultiLineTextFieldBoxControl.info",
+    "MobileComp/metainfo/DateField.info",
+    "MobileComp/metainfo/DateFieldBoxControl.info",
+    "MobileComp/metainfo/DateRangePickerDayClickEventInfo.info",
+    "MobileComp/metainfo/RangeDateChangedEventInfo.info",
+    "MobileComp/metainfo/TimePickerControl.info",
+    "MobileComp/metainfo/TimePickerGroupControl.info",
+    "MobileComp/metainfo/DatePickerGroupControl.info",
+    "MobileComp/metainfo/PickerHeadLineControl.info",
+    "MobileComp/metainfo/DateRangePicker.info",
+    "MobileComp/metainfo/PopupDateRangePicker.info"
+  ],
+  "designscripts": [
+    "MobileComp/Design/DesignMobileCompBase.js",
+    "MobileComp/Design/DesignTextField.js",
+    "MobileComp/Design/DesignMultiLineTextField.js",
+    "MobileComp/Design/DesignDateField.js",
+    "MobileComp/Design/DesignDateRangePicker.js",
+    "MobileComp/Design/DesignPopupDateRangePicker.js"
+  ]
+}

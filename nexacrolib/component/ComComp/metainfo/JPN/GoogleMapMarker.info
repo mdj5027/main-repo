@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.GoogleMapMarker">
+    <ObjectInfo finalclass="true" inheritance="" classname="nexacro.GoogleMapMarker" shorttypename="GoogleMapMarker" csstypename="GoogleMapMarker" csscontrolname="" group="Object" subgroup="" csspseudo="false" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="false" defaultheight="false" registration="deny" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Edge,Chrome,Safari,Firefox,Android NRE,iOS/iPadOS NRE" description="GoogleMapコンポーネントにロードされた地図の特定の位置にマーク（アイコン）を表示するときに使用するオブジェクトです。" />
+    <PropertyInfo>
+      <Property name="draggable" group="Action" subgroup="" refreshinfo="" displayinfo="" edittype="Boolean" defaultvalue="true" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Android NRE,iOS/iPadOS NRE" description="GoogleMapMarkerをドラッグで移動できるかを設定するプロパティです。" csspropertyname="" normalpropertyname="draggable" stringrc="false" defaultstringrc="false" />
+      <Property name="imageurl" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Android NRE,iOS/iPadOS NRE" description="地図にGoogleMapMarkerに表示される画像のパスを設定するプロパティです。" csspropertyname="" normalpropertyname="imageurl" stringrc="false" defaultstringrc="false" />
+      <Property name="latitude" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="0" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Android NRE,iOS/iPadOS NRE" description="GoogleMapMarkerが表示される位置の緯度値を設定するプロパティです。" csspropertyname="" normalpropertyname="latitude" stringrc="false" defaultstringrc="false" />
+      <Property name="longitude" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="Number" defaultvalue="0" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Android NRE,iOS/iPadOS NRE" description="GoogleMapMarkerが表示される位置の経度の値を設定するプロパティです。" csspropertyname="" normalpropertyname="longitude" stringrc="false" defaultstringrc="false" />
+      <Property name="text" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="MultilineString" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Android NRE,iOS/iPadOS NRE" description="GoogleMapMaker上に表示される説明を設定するプロパティです。" csspropertyname="" normalpropertyname="text" stringrc="false" defaultstringrc="false" />
+      <Property name="visible" group="Action" subgroup="" refreshinfo="" displayinfo="" edittype="Boolean" defaultvalue="true" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Edge,Chrome,Safari,Firefox,Android NRE,iOS/iPadOS NRE" description="GoogleMapMakerを地図上に表示するかどうかを設定するプロパティです。" csspropertyname="" normalpropertyname="visible" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo />
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo />
+    <EventHandlerInfo />
+  </Object>
+</MetaInfo>

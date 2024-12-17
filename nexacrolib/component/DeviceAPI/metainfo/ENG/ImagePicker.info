@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInfo version="2.0">
+  <Object id="nexacro.ImagePicker">
+    <ObjectInfo finalclass="false" inheritance="" classname="nexacro.ImagePicker" shorttypename="ImagePicker" csstypename="ImagePicker" csscontrolname="" group="Object" subgroup="Object" csspseudo="" container="false" composite="false" tabstop="false" cssstyle="false" contents="false" formats="false" contentseditor="" defaultwidth="false" defaultheight="false" registration="allow" edittype="" useinitvalue="false" popup="false" edittypecomponent="" dblclickevent="" requirement="Android NRE,iOS/iPadOS NRE" description="It receives images or image paths by connecting with the photo album or the camera app of a mobile device." />
+    <PropertyInfo>
+      <Property name="encodingtype" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE,iOS/iPadOS NRE" description="The read-only attribute with the type information of the imported image." csspropertyname="" normalpropertyname="encodingtype" stringrc="false" defaultstringrc="false" />
+      <Property name="gettype" group="Misc." subgroup="" refreshinfo="" displayinfo="" edittype="" readonly="true" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE,iOS/iPadOS NRE" description="The read-only attribute with the transfer method of the imported image." csspropertyname="" normalpropertyname="gettype" stringrc="false" defaultstringrc="false" />
+      <Property name="id" group="Information" subgroup="" refreshinfo="" displayinfo="" edittype="ID" readonly="true" initonly="true" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="true" mandatory="true" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE,iOS/iPadOS NRE" description="This property is used to set the identification of a ImagePicker." csspropertyname="" normalpropertyname="id" stringrc="false" defaultstringrc="false" />
+      <Property name="imageheight" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="Number" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="Pixel" delimiter="" requirement="Android NRE,iOS/iPadOS NRE" description="The attribute to set the height of the image to be imported." csspropertyname="" normalpropertyname="imageheight" stringrc="false" defaultstringrc="false" />
+      <Property name="imagequality" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="Number" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE,iOS/iPadOS NRE" description="The attribute to set the quality of the image to be imported." csspropertyname="" normalpropertyname="imagequality" stringrc="false" defaultstringrc="false" />
+      <Property name="imagewidth" group="Appearance" subgroup="" refreshinfo="" displayinfo="" edittype="Number" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="Pixel" delimiter="" requirement="Android NRE,iOS/iPadOS NRE" description="The attribute to set the width of the image to be imported." csspropertyname="" normalpropertyname="imagewidth" stringrc="false" defaultstringrc="false" />
+      <Property name="name" group="Information" subgroup="" refreshinfo="" displayinfo="" edittype="String" readonly="false" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE,iOS/iPadOS NRE" description="This property is used to specify the name of a ImagePicker." csspropertyname="" normalpropertyname="name" stringrc="false" defaultstringrc="false" />
+      <Property name="parent" group="Hidden" subgroup="" refreshinfo="" displayinfo="" edittype="Object" readonly="true" initonly="false" hidden="true" control="false" expr="false" bind="false" deprecated="false" unused="false" mandatory="false" objectinfo="" enuminfo="" enuminfo2="" unitinfo="" delimiter="" requirement="Android NRE,iOS/iPadOS NRE" description="This read-only property holds the parent object of a ImagePicker." csspropertyname="" normalpropertyname="parent" stringrc="false" defaultstringrc="false" />
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo />
+    </CSSInfo>
+    <StatusInfo />
+    <ControlInfo />
+    <MethodInfo>
+      <Method name="open" group="" async="false" usecontextmenu="false" deprecated="false" unused="false" requirement="Android NRE,iOS/iPadOS NRE" description="The method to import an image by running other apps connected to the photo album or camera application of the mobile device.">
+        <Syntax text="ImagePicker.open( enumGettype, enumEncodingype )">
+          <Return type="Boolean" description="&quot;True&quot; is returned during method execution is successful.&#xA;&#xA;&quot;False&quot; is returned when failing to execute the method or if a wrong parameter value is set." />
+          <Arguments>
+            <Argument name="enumEncodingtype" type="String" in="false" out="false" option="false" variable="false" description="Set the file format of the image to be delivered.&#xA;&#xA;The image is delivered as a “JPEG” file using the “JPEG” setting.&#xA;The image is delivered as a “PNG” file using the “PNG” setting.&#xA;&#xA;The parameter value is saved in the encodingtype attribute after executing the method." />
+            <Argument name="enumGettype" type="String" in="false" out="false" option="false" variable="false" description="Set the delivery method of the image.&#xA;&#xA;The location information of the image is delivered in “URL” format with the “url” setting.&#xA;The image is delivered in an object format with the “imagedata” setting.&#xA;&#xA;The parameter value is saved in the gettype attribute after executing the method." />
+          </Arguments>
+        </Syntax>
+      </Method>
+    </MethodInfo>
+    <EventHandlerInfo>
+      <EventHandler name="onerror" group="Event" deprecated="false" unused="false" requirement="Android NRE,iOS/iPadOS NRE" description="The event occurring when an image import fails.">
+        <Syntax text="ImagePicker.onerror(obj:nexacro.ImagePicker,e:nexacro.ImagePickerErrorEventInfo);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="obj" type="nexacro.ImagePicker" in="false" out="false" option="false" variable="false" description="Event generated Object." />
+            <Argument name="e" type="nexacro.ImagePickerErrorEventInfo" in="false" out="false" option="false" variable="false" description="Event Object." />
+          </Arguments>
+        </Syntax>
+      </EventHandler>
+      <EventHandler name="onsuccess" group="Event" deprecated="false" unused="false" requirement="Android NRE,iOS/iPadOS NRE" description="The event occurring when an image import is successful.">
+        <Syntax text="ImagePicker.onsuccess(obj:nexacro.ImagePicker,e:nexacro.ImagePickerEventInfo);">
+          <Return type="" description="" />
+          <Arguments>
+            <Argument name="obj" type="nexacro.ImagePicker" in="false" out="false" option="false" variable="false" description="Event generated Object." />
+            <Argument name="e" type="nexacro.ImagePickerEventInfo" in="false" out="false" option="false" variable="false" description="Event Object." />
+          </Arguments>
+        </Syntax>
+      </EventHandler>
+    </EventHandlerInfo>
+  </Object>
+</MetaInfo>

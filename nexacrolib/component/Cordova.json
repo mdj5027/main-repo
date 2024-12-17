@@ -1,0 +1,9 @@
+{
+  "name": "Cordova",
+  "version": "6.1.0",
+  "description": "Nexacro N Unified Framework Library",
+  "license": "",
+  "scripts": [
+    "Cordova.js"
+  ]
+}

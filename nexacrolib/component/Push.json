@@ -1,0 +1,30 @@
+﻿{
+  "name": "Push",
+  "version": "24.0.0.500",
+  "description": "Nexacro N Unified Framework Library",
+  "license": "",
+  "scripts": [
+    "Push.js"
+  ],
+  "scriptsfilter": [
+    {
+      "name": "XPushAPI_Web.js",
+      "target": "WRE,iOS_NRE"
+    },
+    {
+      "name": "XPushAPI_Runtime.js",
+      "target": "NRE"
+    }
+  ],
+    "objInfo" : [
+      "Push/metainfo/XPush.info",
+      "Push/metainfo/PushMessageObject.info",
+      "Push/metainfo/XPushErrorEventInfo.info",
+      "Push/metainfo/XPushEventInfo.info",
+      "Push/metainfo/XPushKeepAliveEventInfo.info"
+    ],
+    "designscripts" : [
+      "Push/Design/DesignXPush.js"
+    ]
+}
+
